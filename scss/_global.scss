@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: $white-color;
+  background-color: $light-bg;
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1252px;
+  padding: 0 5rem;
+  margin: 0 auto;
+}

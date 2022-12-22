@@ -1,0 +1,23 @@
+.header {
+  background-color: $header-footer-bg;
+  padding: 2.5rem 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sitenav {
+    &__list {
+      display: flex;
+      gap: 4rem;
+    }
+
+    &__link {
+      color: $white-color;
+      font-size: 1.3rem;
+      line-height: 1.54;
+    }
+  }
+}
